@@ -309,3 +309,15 @@ h3 { font-size: 1rem; font-weight: 700; line-height: 1.4; letter-spacing: -.025e
   html { scroll-behavior: auto; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+.hero .eyebrow {
+  font-size: .78rem;
+  line-height: 1.5;
+}
+.section-intro,
+.timeline div > p {
+  font-size: 1rem;
+}
+@media (max-width: 400px) {
+  .hero .eyebrow { font-size: .72rem; }
+}
