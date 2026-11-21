@@ -1,9 +1,9 @@
 // Fill in your public contact details before sharing the site.
 // For a local PDF, place it next to index.html and set resume to "./resume.pdf".
 const profile = {
-  email: "",    // e.g. "you@example.com"
-  linkedin: "", // e.g. "https://www.linkedin.com/in/your-profile/"
-  resume: "",   // A public HTTPS URL or a relative file path
+  email: "sachinj158@gmail.com",    // e.g. "you@example.com"
+  linkedin: "https://linkedin.com/in/sachinj158", // e.g. "https://www.linkedin.com/in/your-profile/"
+  resume: "/resume.pdf",   // A public HTTPS URL or a relative file path
 };
 
 const links = {
