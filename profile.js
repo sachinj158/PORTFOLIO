@@ -1,9 +1,9 @@
-// Fill in your public contact details before sharing the site.
+// Public contact details used by the navigation, introduction, and contact section.
 // For a local PDF, place it next to index.html and set resume to "./resume.pdf".
 const profile = {
-  email: "sachinj158@gmail.com",    // e.g. "you@example.com"
-  linkedin: "https://linkedin.com/in/sachinj158", // e.g. "https://www.linkedin.com/in/your-profile/"
-  resume: "/resume.pdf",   // A public HTTPS URL or a relative file path
+  email: "sachinj158@gmail.com",
+  linkedin: "https://www.linkedin.com/in/sachinj158",
+  resume: "", // Add a public HTTPS URL or a local PDF path when available.
 };
 
 const links = {
@@ -17,6 +17,9 @@ for (const anchor of document.querySelectorAll("[data-link]")) {
   if (href) {
     anchor.href = href;
     anchor.hidden = false;
+  } else {
+    anchor.removeAttribute("href");
+    anchor.hidden = true;
   }
 }
 
