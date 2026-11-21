@@ -139,7 +139,7 @@ h3 { font-size: 1rem; font-weight: 700; line-height: 1.4; letter-spacing: -.025e
 .tags { display: flex; align-items: start; flex-wrap: wrap; gap: .45rem; padding: 0; list-style: none; }
 .tags li { padding: .25rem .55rem; border: 1px solid var(--paper-line); border-radius: .2rem; font-size: .7rem; line-height: 1.6; }
 .case .tags { margin-top: 1.6rem; }
-.case-concept { background: #ecebdd; }
+.case-concept { grid-column: 1 / -1; background: #ecebdd; }
 .concept-symbol { display: grid; place-items: center; width: 4.5rem; height: 4.5rem; border: 1px solid #c9ceba; border-radius: 50%; margin-block: 2.3rem 1.8rem; color: var(--forest); }
 .concept-symbol svg { width: 3.1rem; height: 3.1rem; }
 .approach { display: grid; grid-template-columns: 1fr 1.2fr; gap: 5rem; border-top: 1px solid var(--paper-line); }
