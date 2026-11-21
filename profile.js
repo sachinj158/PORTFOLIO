@@ -3,7 +3,7 @@
 const profile = {
   email: "sachinj158@gmail.com",
   linkedin: "https://www.linkedin.com/in/sachinj158",
-  resume: "", // Add a public HTTPS URL or a local PDF path when available.
+  resume: "./sachin-jagdale-resume.pdf",
 };
 
 const links = {
