@@ -321,3 +321,18 @@ h3 { font-size: 1rem; font-weight: 700; line-height: 1.4; letter-spacing: -.025e
 @media (max-width: 400px) {
   .hero .eyebrow { font-size: .72rem; }
 }
+
+.credentials { border-top: 1px solid var(--line); }
+.credentials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr));
+  gap: 1.2rem;
+  margin-top: 2rem;
+}
+.credentials-grid article {
+  padding: clamp(1.2rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: .4rem;
+}
+.credentials-grid p { margin-top: .6rem; color: var(--muted); }
+.credentials-grid a { margin-top: .8rem; }
